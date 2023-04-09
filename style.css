@@ -135,6 +135,27 @@ img,
 .main-header, .primary-content {
     margin-bottom: 1rem;
 }
+@media (min-width: 768px) {
+
+	.main-header {
+			position: fixed;
+			top: 0;
+			height: 100%;
+			width: 33.3%;
+		}
+
+}
+/* Primary Content Wrapper Styles */
+
+@media (min-width: 768px) {
+
+	.primary-content {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+
+}
 
 /* ==== COMPONENT STYLES ==== */
 
