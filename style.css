@@ -99,7 +99,19 @@ h2 {
 
 /* ==== LAYOUT STYLES ==== */
 
+/* Main Header Styles */
 .main-header {
 	text-align: center;
 	padding: 1.25rem;
+}
+
+/* Article Styles */
+.post {
+	width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
+}
+
+.picture {
+	width: 100%;
 }
